@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --beige: #DDD0C8;
+    --grey: #323232;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    background-color: var(--beige);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    margin-top: 1rem;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-links > a {
+    color: var(--grey);
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.shopping-bag {
+    margin: 1rem;
+}
+
+.shopping-bag > a {
+    color: var(--grey);
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    margin: .3rem;
+    font-weight: 200;
+}
+
+.shopping-bag > svg {
+    width: 1.3rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header-img{
+    position: relative;
+    height: 90%;
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img > p {
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--grey);
+    font-size: 2rem;
+    margin-left: 2rem;
+    font-weight: 800;
+}
+
+.hero-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section--content > h1, h2 {
+    color: var(--grey);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.hero-section--content > h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.hero-section--content > h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.hero-section--content > .btn {
+    border-radius: 40px;
+    height: 75px;
+    background-color: var(--grey);
+    width: 150px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn > span {  
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.footer {
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.footer-links {
+
+    align-self: start;
+    padding-left: 1rem;
+}
+
+.footer-copyright {
+    align-self: center;
+    padding-left: 1rem;
+}
+
+.footer-copyright > p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    color: var(--grey);
+}
+
+.footer-links > svg {
+    width: 1.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
